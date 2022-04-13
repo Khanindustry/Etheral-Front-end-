@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url("/img/background.jpg");
+    background-attachment: fixed;
+    .navv{
+        background-color: #443344!important  ;
+        height: 50px;
+        .collapse{
+            line-height: 28px;
+          }
+        .navbar-brand{
+            font-family: 'Oleo Script Swash Caps', cursive;
+              font-size: 25px;
+              color: white;
+              
+        }
+        .navbar-brand:hover{
+            color: red;
+        }
+    
+        .nav{
+        height: 50px;
+            li{
+                text-align: center;
+                margin-left: 10px;
+            }
+            .nav-link{
+                color: white;
+            }
+             li:hover{
+                background-color: #665566;
+                color: #fff;
+                border-bottom: 2px solid #EB233C;
+               
+            }
+            .active{
+                background-color: #665566;
+                color: #fff;
+                border-bottom: 2px solid #EB233C;
+                .nav-link{
+                    color: white;
+                }
+            }
+        }
+    }
+
+
+    #banner{
+    background-color: rgba(15,5,20,0.84);
+    padding-bottom: 220px;
+    color: white;
+    .container{
+        
+        .banner-text{
+            text-align: center;
+            margin-top: 210px;
+            h2{
+            font-family: 'Oleo Script Swash Caps', cursive;
+            font-size: 50px;
+            span{
+                color: red;
+            }
+            }
+            p{
+                font-size: 15px;
+                font-weight: 700;
+                font-family: 'Work Sans',sans-serif;
+            }
+            a{
+                border: 1px solid rgba(204,204,204,0.18);
+                font-size: 15px;
+                padding: 12px 35px;
+                color: #ccc;
+                margin-top: 31px;
+            }
+            a:hover{
+                background-color: #ccc;
+                color: black;
+            }
+        }
+    }
+    }
+
+    #footer{
+    background-color: white;
+    padding-bottom: 20px;
+
+    .container{
+        margin-left: 213px;
+         
+    }
+    .media{
+        margin-top: 100px;
+        .iconn{
+            position: relative;
+             top: 50px;
+             right: 46px;
+             .far{
+                font-size: 25px;
+                color: red;
+            }
+             }
+        }
+        .container-text{
+            h2{
+            font-family: 'Oleo Script Swash Caps', cursive;
+            font-size: 20px;
+            }
+            p{
+                width: 75%;
+                 font-size: 14px;
+            }
+        }
+    }
+        
+
+    #work{
+    background-color: #faf4fa;
+    padding-bottom: 98px;
+    .container-text{
+        text-align: center;
+        margin-bottom: 20px;
+        h2{
+            border-bottom: 2px solid #EB233C;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            font-size: 24px;
+            display: inline-block;
+        }
+    }
+    .row{
+        justify-content: center;
+        .col-md-6{
+            width: 43%;
+            margin-bottom: 30px;
+            a{
+                text-decoration: none;
+            }
+        }
+        .col-md-6:hover{
+            opacity: 0.7;
+            a{
+                text-decoration: none;
+            }
+        }
+        
+    }
+
+    .link{
+        text-align: center;
+        margin-top: 32px;
+        a{
+            text-decoration: none;
+    border: 2px solid  ;
+    padding: 13px 35px;
+    background: #EB233C;
+    border-radius: 45px;
+    color: white;
+        }
+    }
+    }
+
+
+    #testimonial{
+    background-color: white;
+    .row{
+        .container-text{
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+            h2{
+                font-family: 'Oleo Script Swash Caps', cursive;
+                border-bottom: 2px solid red;
+                display: inline-block;
+                font-size: 26px;
+            }
+        }
+        
+    }
+    .owl-carusell{
+        background-color: rgba(235,213,235,0.26);
+        padding: 20px 20px 10px;
+        border-radius: 10px;
+        text-align: center;
+        width: 99%;
+        display: inline-block;
+        margin-bottom: 27px;
+        .item-image{
+            position: relative;
+            left: 163px;
+            img{
+                   width: 80px;
+                    text-align: center;
+                    height: 80px;
+                    border-radius: 63px;
+                
+            }
+            h3{
+                margin-top: 6px;
+                 text-align: start;
+
+            }
+        }
+    }
+    }
+    }
+
+    #testimonial2{
+    padding-bottom: 40px;
+    background-color: rgba(15,5,20,0.84);
+    h3{
+        font-family: 'Oleo Script Swash Caps', cursive;
+        display: inline-block;
+        font-size: 25px;
+        color: white;
+        margin-bottom: 20px;
+        border-bottom: 2px solid red; 
+    }
+    p{
+        color: white;
+        font-size: 15px;
+        font-family: 'Work Sans',sans-serif;
+    }
+    .container-link{
+        margin-top: 20px;
+        text-align: center;
+        a{
+            text-decoration: none;
+            border: 2px solid #EB233C;
+            padding: 12px 35px;
+            border-radius: 25px;
+            background: #EB233C;
+            color: white;
+        }
+         
+    }
+    }
+
+    #about{
+    background-color: white;
+    .container-text{
+        margin-top: 41px;
+     text-align: center;
+        h3{
+            display: inline-block;
+        font-family: 'Oleo Script Swash Caps', cursive;
+        border-bottom: 2px solid red;
+        }
+    }
+    .about-text{
+        margin-top: 28px;
+        p{
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+    .client{    text-align: center;
+        margin-top: 32px;
+        h5{
+            font-size: 16px;
+            margin-bottom: -6px;
+        }
+        .timer{
+            color: #EB233C;
+            font-size: 50px;
+            font-weight: 200;
+           }
+    }
+
+    }
+   
+
+
+
+
+    #contact{
+        background-color: #faf4fa;
+        padding-bottom: 30px;
+        .container-text{
+            margin-top: 40px;
+            text-align: center;
+            h3{
+                display: inline-block;
+                font-family: 'Oleo Script Swash Caps', cursive;
+                border-bottom: 2px solid red;
+            }
+        }
+        
+        .formm{
+            margin-top: 109px;
+            .mess{
+                border: none;
+                width: 95%;
+                box-shadow: none;
+                background: none;
+                border-bottom: 2px solid #EB233C;
+                resize: none;
+            }
+            .mess:focus{
+                
+                border-bottom: 2px solid #000000;
+            }
+            .linkk{
+                text-align: center;
+                margin-top: 32px;
+                a{
+                    text-decoration: none;
+                    border: 2px solid #EB233C;
+                    padding: 12px 35px;
+                    border-radius: 25px;
+                    background: #EB233C;
+                    color: white;
+                }
+            }
+        }
+        
+
+        .adress{
+            margin-top: 72px;
+            // margin-left: 83px;
+            .container-text{
+            text-align: start;
+                margin-left: 100px;
+                h5{
+                 font-family: 'Oleo Script Swash Caps', cursive;
+                    color: #EB233C;
+                }
+                p{
+                    width: 35%;
+                    font-weight: 600;
+                }
+            }
+            .email{
+                .fas{
+                    color: #EB233C;
+                }
+            }
+        }
+   }
+
+  #footer2{
+       background-color: white;
+       padding: 20px;
+       .social-buttons{
+           li{
+            display: inline-block;
+            padding-right: 5px;
+            padding-left: 5px;
+            text-align: center;
+            a{
+                background-color: #222;
+                border-radius: 100%;
+                color: #fff;
+                display: block;
+                font-size: 20px;
+                height: 40px;
+                line-height: 40px;
+            outline: 0 none;
+            transition: all 0.3s ease 0s;
+            width: 40px;
+            }
+            a:hover{
+                background-color: #EB233C;
+            }
+           }
+       }
+
+       .quicklinks{
+           li{
+               a{
+                   color: #EB233C;
+                   text-decoration: none;
+               }
+           }
+       }
+       
+       .img{
+        text-align: center;
+        margin-top: 33px;
+       }
+   }
+
+
+
+
